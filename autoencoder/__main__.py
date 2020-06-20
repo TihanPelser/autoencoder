@@ -97,16 +97,7 @@ def main():
                              data=reduced_data)
 
         ax.set_title("Comparison of Principal Components\n and Autoencoder Encoded Data")
-
-    fig = plt.figure(2)
-    ax = sns.scatterplot(x=encoded_feature_labels[0],
-                         y=encoded_feature_labels[1],
-                         hue="species",
-                         data=encoded_df)
-
-    ax.set_title("Comparison of Principal Components\n and Autoencoder Encoded Data")
-
-    plt.show()
+        plt.show()
 
 
 if __name__ == '__main__':
