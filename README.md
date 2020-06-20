@@ -5,7 +5,7 @@ Component Analysis. The test dataset used is the Iris dataset (from Seaborn's bu
 The graph below shows a sample of the results obtained, illustrating he linear separability of the features in 
 lower dimensions.
 
-![Sample Results](results/sample_results_2.png "Sample Results")
+![Sample Results](./results/sample_results_2.png "Sample Results")
 
 The Autoencoder is created using Keras' Sequential API, while the Principal Component decomposition is done using
 SciKit-Learn's built-in PCA functionality. 
